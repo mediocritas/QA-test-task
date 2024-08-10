@@ -1,0 +1,26 @@
+{
+  "name": "notion-qa-test-task",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "directories": {
+    "test": "test ./configs/*.config.js"
+  },
+  "scripts": {
+    "test": "test ./configs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mediocritas/notion-QA-test-task.git"
+  },
+  "author": "Olga Pushkina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mediocritas/notion-QA-test-task/issues"
+  },
+  "homepage": "https://github.com/mediocritas/notion-QA-test-task#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.46.0",
+    "@types/node": "^22.2.0"
+  }
+}
